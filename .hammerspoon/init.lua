@@ -1,6 +1,6 @@
 function LinkedIn()
     local url = "https://linkedin.com"
-    local t = hs.task.new("/Applications/Firefox.app/Contents/MacOS/firefox",
+    local t = hs.task.new("/usr/bin/open",
     nil,
     function() return false end,
     {url})
